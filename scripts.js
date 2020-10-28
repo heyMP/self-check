@@ -1,0 +1,1 @@
+import "./components/self-check/self-check.js";

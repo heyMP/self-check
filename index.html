@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <self-check type="multiplechoice">
+    <div slot="question">What color is the sky?</div>
+    <self-check-item correct>
+      Blue
+      <div slot="feedback">Yes! You are really getting this concept!</div>
+    </self-check-item>
+    <self-check-item>
+      Black
+      <div slot="feedback">Of course it isn't black.  Look at this picture <img src="#"/></div>
+    </self-check-item>
+    <self-check-item>
+      Brown
+      <div slot="feedback">Of course it isn't brown.  Look at this picture <img src="#"/></div>
+    </self-check-item>
+  </self-check>
+
+  <self-check type="boolean" answer="true">
+    <div slot="question">True or false: <lrn-math>E=MC^2</lrn-math></div>
+  </self-check>
+  
+  <script type="module" src="./scripts.js"></script>
+</body>
+</html>
